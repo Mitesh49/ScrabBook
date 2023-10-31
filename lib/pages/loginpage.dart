@@ -39,10 +39,13 @@ class loginpage extends StatelessWidget {
                 child: TextField(
                   decoration: InputDecoration(
                       enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.white)),
+                          borderSide: BorderSide(color: Colors.black),
+                          borderRadius: BorderRadius.all(Radius.circular(5))),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.black),
-                      )),
+                          borderSide: BorderSide(color: Colors.white),
+                          borderRadius: BorderRadius.all(Radius.circular(25))),
+                      fillColor: Color.fromARGB(255, 10, 33, 58),
+                      filled: true),
                 ),
               )
 
