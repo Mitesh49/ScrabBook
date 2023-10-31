@@ -16,6 +16,3 @@ class scrapbook extends StatelessWidget {
     );
   }
 }
-
-
-//h
